@@ -66,6 +66,10 @@ ul.menu > li > a:hover {
 
 /* CSS FILM */
 
+.flim {
+    margin-bottom: -50px;
+}
+
 .films > div {
     overflow: hidden;
     transition: transform 0.5s ease;
