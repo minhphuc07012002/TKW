@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(26, 26, 26);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+}
+  .menu img {
+    width: 100px; 
+    height: auto; 
+    margin: 10px; 
+  }
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+  }
+
+ul.menu > li {
+    min-width: 250px;
+    text-align: center;
+    margin-top:25px;
+}
+
+ul.menu > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+    padding: 15px 20px;
+    display:block;
+}
+
+ul.menu > li > a:hover {
+ color: orange;
+}
+/*/ CSS BOX /*/
+
+.box {
+    text-align: right;
+    margin-top:200px;
+    margin-left:200px;
+}
+
+.menu input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc; 
+    margin-top: 10px;
+  }
+  
+  .menu .box input[type="text"]::placeholder {
+    color: #999; 
+  }
+
+.title{
+    color: rgb(220, 123, 26);
+    text-align: left;
+}
+
+/* CSS FILM */
+
+.films > div {
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.film img {
+    width: 100%;
+    height: auto;
+}
+
+.film:hover {
+    transform: scale(1.2);
+}
+
+div.films{
+    display:flex;
+    margin:1%;
+}
+
+
+div.film {
+    padding: 10px;
+    width:25%;
+    text-align: center;
+}
+
+div.film > img {
+    width:100%;
+}
+
+div.text {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    padding: 1px;
+    transform: translate(-0%, -105%);
+ }
+/*/ CSS SECTION /*/
+
+section > h1 {
+    margin:1%;
+}
+
+section {
+    color: rgb(220, 123, 26);
+    text-align: left;
+    margin: 1%;
+
+/*/ CSS FOOTER /*/ 
+
+} 
+ul.list {
+    list-style-type: none
+}
+
+ul.list > li > a {
+    width: 16.66%;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+.list li {
+    margin-bottom: 1px;
+    padding-bottom: 10px;
+}
+
+.infor {
+    margin-left: 4%;
+}
